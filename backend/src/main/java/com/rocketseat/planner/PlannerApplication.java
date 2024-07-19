@@ -2,6 +2,9 @@ package com.rocketseat.planner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class PlannerApplication {
@@ -11,6 +14,7 @@ public class PlannerApplication {
 	}
 
 }
+
 
 // Features: adicionar validação nos campos de data
 // - data de começo da viagem é inferior a data de término da viagem
